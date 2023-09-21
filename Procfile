@@ -1,1 +1,1 @@
-web: node index.mjs
+worker: node index.mjs
