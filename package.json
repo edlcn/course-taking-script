@@ -1,0 +1,17 @@
+{
+  "name": "course-taking-script",
+  "version": "1.0.0",
+  "description": "An application that checks whether there is an empty seat in a course and registers if there is",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs"
+  },
+  "author": "Emirhan Delican",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.3.1"
+  }
+}
