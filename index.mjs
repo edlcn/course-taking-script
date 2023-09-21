@@ -6,7 +6,7 @@ import * as cheerio from "cheerio";
   //const crns = ["x","x","x","x","x","x","x","x","x","x"]
   const crns = ["10116", "10118"]
 
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
 
   let relogin = true;
 
