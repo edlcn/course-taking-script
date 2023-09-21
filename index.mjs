@@ -77,7 +77,7 @@ import * as cheerio from "cheerio";
           "body > div.pagebodydiv > table:nth-child(1) > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td:nth-child(4)"
         );
 
-        if (parseInt(element.text()) === 0) {
+        if (parseInt(element.text()) === 52) {
           console.log("A seat found!");
           const finalSubmitButton = await page.$('input[type="submit"]');
           await finalSubmitButton.click();
